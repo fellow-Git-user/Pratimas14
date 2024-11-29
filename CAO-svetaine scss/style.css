@@ -1,0 +1,300 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  color: black;
+  font-family: Bw Nista Int, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  margin-top: 50px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.container h2 {
+  color: #1200ff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  line-height: 1.17;
+  margin-bottom: 13px;
+  text-transform: uppercase;
+}
+.container .naujienos-container {
+  margin-bottom: 60px;
+}
+.container .naujienos-container .articles-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.container .naujienos-container .postcard-container {
+  background-color: white;
+}
+.container .naujienos-container .postcard-container .news-image img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .naujienos-container .postcard-container .inside-content {
+  padding: 38px;
+}
+.container .naujienos-container .postcard-container .inside-content h2 {
+  color: #1200ff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  line-height: 1.17;
+  margin-bottom: 13px;
+}
+.container .naujienos-container .postcard-container .inside-content h3 {
+  font-family: Bw Nista Int, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.17;
+  margin-bottom: 11px;
+}
+.container .naujienos-container .articles-container-lower-part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.container .naujienos-container .articles-container-lower-part .postcard-lower-container {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: repeat(3, 0.1fr);
+  gap: 10px;
+}
+.container .naujienos-container .articles-container-lower-part .postcard-lower-container .lower-news-image {
+  grid-row-end: span 3;
+}
+.container .naujienos-container .articles-container-lower-part .postcard-lower-container .lower-news-image img {
+  width: 100%;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .naujienos-container .articles-container-lower-part .postcard-lower-container h2 {
+  margin-top: 0;
+}
+.container .naujienos-container .articles-container-lower-part .postcard-lower-container h3 {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.container .naujienos-container .visos-naujienos-button {
+  display: block;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+  font-size: 24px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.container .naujienos-container .visos-naujienos-button::after {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='33'%3E%3Cpath d='M2.535 32.526.033 30.024l13.76-13.761L.034 2.502 2.535-.001 18.8 16.263z' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  height: 33px;
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 19px;
+}
+.container .naujienos-container .container-vaizdo-irasai span {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  line-height: 1.17;
+  margin-bottom: 25px;
+}
+.container .naujienos-container .container-vaizdo-irasai .latest-videos {
+  display: grid;
+  grid-template-columns: 385px 385px;
+  grid-template-rows: 216px 216px;
+  margin-bottom: 50px;
+}
+.container .naujienos-container .container-vaizdo-irasai .latest-videos iframe:nth-child(1) {
+  width: 770px;
+  height: 433px;
+  grid-row-end: span 2;
+  grid-column-end: span 2;
+}
+.container .naujienos-container .container-vaizdo-irasai .latest-videos h2:first-of-type {
+  font-family: Bw Nista Int, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.17;
+  margin-bottom: 11px;
+  color: black;
+  grid-column-end: span 2;
+}
+.container .naujienos-container .container-vaizdo-irasai .latest-videos h2:nth-of-type(2), .container .naujienos-container .container-vaizdo-irasai .latest-videos h2:nth-of-type(3) {
+  font-family: Bw Nista Int, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.74;
+  margin-bottom: 11px;
+  color: #000;
+  text-transform: none;
+}
+.container .naujienos-container .container-vaizdo-irasai .latest-videos iframe:nth-of-type(2) {
+  width: 370px;
+  height: 208px;
+}
+.container .naujienos-container .container-vaizdo-irasai .latest-videos iframe:nth-of-type(3) {
+  width: 370px;
+  height: 208px;
+}
+.container .podcast-radio-show .podcast-radio-show-header {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  line-height: 1.17;
+  margin-bottom: 25px;
+}
+.container .podcast-radio-show .player-wrapper {
+  display: grid;
+  grid-template-columns: 70px 230px 70px;
+  margin-bottom: 30px;
+}
+.container .podcast-radio-show .player-wrapper .image-wrapper img {
+  width: 70px;
+  height: 70px;
+  grid-column-end: span 1;
+}
+.container .podcast-radio-show .player-wrapper .trukme-box {
+  width: 230px;
+  height: 70px;
+  grid-column-end: span 1;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+.container .podcast-radio-show .player-wrapper .play-button {
+  width: 70px;
+  height: 70px;
+  grid-column-end: span 1;
+  border: 2px solid black;
+}
+.container .podcast-radio-show .player-wrapper .play-button img {
+  width: 70px;
+  height: 70px;
+}
+.container .podcast-radio-show .player-wrapper .podcast-heading {
+  grid-column-end: span 3;
+  background-color: white;
+}
+.container .podcast-radio-show .player-wrapper .podcast-heading h3 {
+  margin-top: 0;
+}
+.container .podcast-radio-show .player-wrapper .date-of-release {
+  grid-column-end: span 3;
+  background-color: white;
+}
+.container .podcast-radio-show .renginiai-wrapper .event-info {
+  display: grid;
+  margin-bottom: 50px;
+  background-color: black;
+}
+.container .podcast-radio-show .renginiai-wrapper .event-info .image-wrapper img {
+  width: 370px;
+  height: 247px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .podcast-radio-show .renginiai-wrapper .event-info .content-box .event-date-box {
+  border-radius: 8px;
+  max-width: 70px;
+  text-align: center;
+  position: relative;
+  bottom: 35px;
+  left: 25px;
+  overflow: hidden;
+}
+.container .podcast-radio-show .renginiai-wrapper .event-info .content-box .event-date-box .day {
+  background-color: white;
+  color: black;
+  font-family: Bw Gradual, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  align-content: center;
+  padding: 5px;
+}
+.container .podcast-radio-show .renginiai-wrapper .event-info .content-box .event-date-box .month {
+  background-color: #ff00e9;
+  color: white;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  padding: 4px;
+  text-transform: uppercase;
+}
+.container .podcast-radio-show .renginiai-wrapper .event-info .content-box .date-of-release {
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 3px;
+  margin-top: -15px;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+}
+.container .podcast-radio-show .renginiai-wrapper .event-info .content-box .podcast-heading h3 {
+  font-family: Bw Nista Int, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.33;
+  color: white;
+  background-color: black;
+}
+.container .podcast-radio-show .visos-naujienos-button {
+  display: block;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+  font-size: 24px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.container .podcast-radio-show .visos-naujienos-button::after {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='33'%3E%3Cpath d='M2.535 32.526.033 30.024l13.76-13.761L.034 2.502 2.535-.001 18.8 16.263z' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  height: 33px;
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 19px;
+}/*# sourceMappingURL=style.css.map */

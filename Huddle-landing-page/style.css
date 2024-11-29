@@ -1,0 +1,266 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.container{
+    margin-top: 50px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header{
+    background-image: url("bg-hero-desktop.svg");
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #edfbfe;
+}
+
+
+.tryit-button{
+    background-color: #fff; 
+}
+
+.no-underline{
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+    align-content: center;
+    background-color: #fff; 
+    border-radius: 40px;
+    box-shadow: 0px 0px 0px 1px #eeee;
+}
+
+.logo-button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px
+}
+
+.header-content-flex{
+    display: flex;
+    padding: 50px;
+    padding-top: 20px;
+    
+}
+
+.container .header-content-flex .content-box {
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+/* .container .header-content-flex .content-box .img-mockup{
+    width: 50%;
+} kodel neveikia sitas o apatinis kodas veikia? */ 
+
+
+.img-mockup{
+    width: 50%;}
+
+.img-mockup img{
+    width: 100%;
+
+} 
+
+.header-content-flex .content-box a{
+    background-color: #fe52c0;
+    width: 20%;
+    color: #ffff;
+    box-shadow: none;
+    
+}
+
+.paragraph-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 8%;
+    border: #f7f7f7 1px solid;
+    box-shadow: 0 0 5px 2px #f7f7f7;
+    border-radius: 10px;
+    padding: 30px 0px 20px 30px;
+}
+
+.text-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.inner-container .img-content{
+    width: 40%;
+    
+}
+
+.inner-container .img-content img{
+    width: 100%;
+}
+
+.text-content h2{
+    margin-bottom: 0px;
+}
+
+.paragraph-container div:nth-of-type(2){
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ready-container{
+    background-color: white;
+    width: 50%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    position: relative;
+    top: 75px;
+    border: #f7f7f7 1px solid;
+    box-shadow: 0 0 1px 2px #f7f7f7;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    /* height nereikia, panaudot max width */
+}    
+
+.ready-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fe52c0;
+    color: white;
+    text-decoration: none;
+    width: 50%;
+    height: 35%;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+
+
+footer{
+    background-color: #00252e;
+    color: white;
+    width: 100%;
+    padding-top: 150px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.footer-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left:  6%;
+}
+
+.address-field{
+    width: 30%;
+}
+
+.about-what-faq{
+    width: 23.3%;
+}
+
+.career-blog-contact{
+    width: 23.3%;
+}
+
+.socials{
+    width: 23.3%;
+}
+
+
+
+
+.copyright{
+    
+}
+
+/*     
+}
+
+.inside-inner-container {
+    display: flex;
+    width: 100%;
+}
+
+.inside-inner-container .text-content {
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+.inside-inner-container .image-content {
+    width: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.inside-inner-container .image-content img {
+    width: 50%;
+    max-width: 100%; 
+} 
+
+*/
+
+/* .inner-container .inside-inner-container{
+    width: 50%;
+}
+
+.paragraph-container .inner-container img:first-of-type{
+    width: 50%;
+} */
+
+
+
+

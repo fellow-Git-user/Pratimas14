@@ -1,0 +1,124 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edf2f8;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flexbox-wrapper {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.flexbox-wrapper .testimonial-container {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.flexbox-wrapper .testimonial-container .daniel {
+  background-color: #733fc8;
+  background-image: url("bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  width: calc(66.6666666667% - 20px);
+  background-position: 80% 0;
+  padding: 25px;
+}
+.flexbox-wrapper .testimonial-container .daniel div:first-of-type {
+  color: white;
+  font-weight: 500;
+}
+.flexbox-wrapper .testimonial-container .daniel div:nth-of-type(2) {
+  color: hsl(0, 0%, 81%);
+}
+.flexbox-wrapper .testimonial-container .daniel p:first-of-type {
+  color: white;
+  font-weight: 600;
+}
+.flexbox-wrapper .testimonial-container .jonathan {
+  background-color: #49556b;
+  width: calc(33.3333333333% - 20px);
+  padding: 25px;
+}
+.flexbox-wrapper .testimonial-container .jonathan img {
+  border-radius: 100%;
+}
+.flexbox-wrapper .testimonial-container .jonathan div:first-of-type {
+  color: white;
+  font-weight: 500;
+}
+.flexbox-wrapper .testimonial-container .jonathan div:nth-of-type(2) {
+  color: hsl(0, 0%, 81%);
+}
+.flexbox-wrapper .testimonial-container .jonathan p:first-of-type {
+  color: white;
+  font-weight: 600;
+}
+.flexbox-wrapper .testimonial-container .jeanette {
+  background-color: #ffffff;
+  width: calc(33.3333333333% - 20px);
+  padding: 25px;
+}
+.flexbox-wrapper .testimonial-container .jeanette img {
+  border-radius: 100%;
+}
+.flexbox-wrapper .testimonial-container .jeanette div:nth-of-type(2) {
+  color: hsl(0, 0%, 81%);
+}
+.flexbox-wrapper .testimonial-container .jeanette p:first-of-type {
+  color: #4b4c58;
+  font-weight: 600;
+}
+.flexbox-wrapper .testimonial-container .patrick {
+  background-color: #18202d;
+  width: calc(66.6666666667% - 20px);
+  padding: 25px;
+}
+.flexbox-wrapper .testimonial-container .patrick img {
+  border-radius: 100%;
+}
+.flexbox-wrapper .testimonial-container .patrick div:first-of-type {
+  color: white;
+  font-weight: 500;
+}
+.flexbox-wrapper .testimonial-container .patrick div:nth-of-type(2) {
+  color: hsl(0, 0%, 81%);
+}
+.flexbox-wrapper .testimonial-container .patrick p:first-of-type {
+  color: white;
+  font-weight: 600;
+}
+.flexbox-wrapper > div:nth-of-type(1),
+.flexbox-wrapper > div:nth-of-type(2),
+.flexbox-wrapper > div:nth-of-type(3),
+.flexbox-wrapper > div:nth-of-type(4),
+.flexbox-wrapper > div:nth-of-type(5) {
+  border-radius: 2%;
+}
+.flexbox-wrapper .kira {
+  background-color: #ffffff;
+  width: 25%;
+  padding: 25px;
+}
+.flexbox-wrapper .kira img {
+  border-radius: 100%;
+}
+.flexbox-wrapper .kira div:nth-of-type(2) {
+  color: hsl(0, 0%, 81%);
+}
+.flexbox-wrapper .kira p:first-of-type {
+  color: #4b4c58;
+  font-weight: 600;
+}/*# sourceMappingURL=styles.css.map */

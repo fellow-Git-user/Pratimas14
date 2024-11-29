@@ -1,0 +1,13 @@
+@use 'color-variables';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+body{
+    background: color-variables.$color-background-color;
+    color: color-variables.$color-black;
+    font-family: Bw Nista Int, Arial, sans-serif;
+    font-size: 14px;
+}

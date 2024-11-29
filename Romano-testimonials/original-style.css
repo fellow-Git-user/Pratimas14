@@ -1,0 +1,216 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #edf2f8;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* @media (max-width: 800px) {
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 0px;  
+    }
+}
+
+@media (max-width: 570px) {
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 0px;  
+    }
+} */
+
+
+.flexbox-wrapper{
+    
+}
+
+/* @media (max-width: 800px) {
+    .flexbox-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        row-gap: 20px;  
+    }
+}
+
+@media (max-width: 570px) {
+    .flexbox-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        row-gap: 20px;  
+    }
+} */
+
+
+.flexbox-wrapper .testimonial-container{
+    
+    
+}
+
+/* @media (max-width: 800px) {
+    .flexbox-wrapper .testimonial-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        
+    }
+}
+
+@media (max-width: 570px) {
+    .flexbox-wrapper .testimonial-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonial-container .daniel{
+    
+    
+}
+
+.testimonial-container .jonathan{
+    
+}
+
+
+.testimonial-container .jeanette{
+    
+}
+
+@media (max-width: 570px) {
+    .flexbox-wrapper .testimonial-container .daniel,
+    .flexbox-wrapper .testimonial-container .patrick{
+        width: 100%;
+    }
+    }
+    
+    @media (max-width: 570px) {
+    .testimonial-container .jonathan,
+    .testimonial-container .jeanette{
+        width: calc(100% / 2 - 20px);
+    }
+    }
+
+.testimonial-container .patrick{
+    
+} 
+
+.flexbox-wrapper .testimonial-container .kira{
+    
+    
+   
+}
+
+.kira{
+    /* background-color: #ffffff;
+    width: 25%;
+    padding: 25px;     */
+}
+
+@media (max-width: 800px) {
+    .kira{
+    background-color: #ffffff;
+    width: 97.5%;
+    padding: 25px;
+      
+}
+}
+
+@media (max-width: 570px) {
+    .kira{
+    background-color: #ffffff;
+    width: 97.5%;
+    padding: 25px;
+      
+}
+}
+
+
+
+
+
+/* main > div:nth-of-type(1),
+main > div:nth-of-type(2),
+main > div:nth-of-type(3),
+main > div:nth-of-type(4),
+main > div:nth-of-type(5){
+    border-radius: 2%;
+} */
+
+
+.daniel p:first-of-type,
+.jonathan p:first-of-type,
+.patrick p:first-of-type{
+    color: white;
+    font-weight: 600;
+    
+}
+
+.jeanette p:first-of-type,
+.kira p:first-of-type{
+    color: #4b4c58;
+    font-weight: 600;
+    
+}
+
+.daniel div:first-of-type,
+.jonathan div:first-of-type,
+.patrick div:first-of-type{
+    color: white;
+    font-weight: 500;
+}
+
+.daniel div:nth-of-type(2),
+.jonathan div:nth-of-type(2),
+.jeanette div:nth-of-type(2),
+.patrick div:nth-of-type(2),
+.kira div:nth-of-type(2){
+    color: hsl(0, 0%, 81%);
+}
+
+img{
+    border-radius: 100%;
+}
+
+
+
+    
